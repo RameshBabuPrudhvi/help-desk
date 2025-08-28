@@ -1,14 +1,19 @@
-# help-desk
+Title:
+Analysis Task – Feasibility of Migrating Bitbucket Repo and Setting up Automation Job for Selenium Execution
 
-| **TC ID**    | **Test Scenario**                                                | **Precondition**                                                      | **Test Steps**                                                                                                                                                           | **Expected Result**                                                                       |
-| ------------ | ---------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
-| SG\_MIG\_001 | Verify safekeeping accounts migration to Singapore Global        | Accounts exist in Singapore Direct branch (760 prefix)                | 1. Search for safekeeping account in TRS under Singapore Direct. <br>2. Run migration job. <br>3. Search same account in TRS.                                            | Account should now appear under **Singapore Global branch**, not in Singapore Direct.     |
-| SG\_MIG\_002 | Verify reclaim reference remains same after migration            | Safekeeping account with reclaim reference exists in Singapore Direct | 1. Note reclaim reference number in Singapore Direct. <br>2. Run migration job. <br>3. Search same account in Singapore Global.                                          | Reclaim reference should remain **unchanged** (old reference retained).                   |
-| SG\_MIG\_003 | Verify documents linked to migrated account                      | Account has linked documents in Taxminder                             | 1. Open safekeeping account in Singapore Direct. <br>2. Note down linked documents (live + expired). <br>3. Migrate to Singapore Global. <br>4. Search migrated account. | All documents should still be **linked** to the account in Singapore Global.              |
-| SG\_MIG\_004 | Verify beneficial owners remain linked                           | Account has beneficial owners linked in Taxminder                     | 1. Open account in Singapore Direct. <br>2. Note beneficial owners. <br>3. Run migration. <br>4. Check in Singapore Global.                                              | All beneficial owners should remain **intact and visible**.                               |
-| SG\_MIG\_005 | Verify account visibility in Taxminder                           | Account exists in Singapore Direct branch                             | 1. Login to Taxminder. <br>2. Search account before migration. <br>3. Run migration. <br>4. Search account again.                                                        | Account should appear under **Singapore Global branch** in Taxminder.                     |
-| SG\_MIG\_006 | Verify multiple accounts migration (batch migration)             | List of 156 accounts to migrate                                       | 1. Trigger migration job for all accounts. <br>2. Validate sample accounts in TRS & Taxminder.                                                                           | All 156 accounts should move to Singapore Global, with correct references and documents.  |
-| SG\_MIG\_007 | Verify system behavior if account is already in Singapore Global | Account already exists in Singapore Global                            | 1. Attempt to migrate account again.                                                                                                                                     | System should **skip migration** or display **“already migrated”** status without errors. |
-| SG\_MIG\_008 | Verify null/missing reclaim records during migration             | Safekeeping account exists but reclaim records missing                | 1. Run migration job. <br>2. Search migrated account.                                                                                                                    | Migration completes but missing reclaims should not break process; account still moves.   |
-| SG\_MIG\_009 | Verify migration report logs                                     | Migration job executed                                                | 1. Run migration for accounts. <br>2. Open migration report/log.                                                                                                         | Log should show **success/failure count**, migrated accounts, skipped accounts, errors.   |
-| SG\_MIG\_010 | Verify performance impact                                        | Batch migration of 156 accounts                                       | 1. Measure time taken before & after migration job.                                                                                                                      | Migration should complete within **acceptable performance SLA**.                          |
+Description:
+This task is to analyze the feasibility of migrating the existing Bitbucket repository and setting up an automation job for executing Selenium scripts using the Lightspeed server (or alternative execution server). The analysis should capture all required details, dependencies, and configuration needs.
+
+Scope / Action Items:
+
+Check availability and access details of the Lightspeed server.
+
+Verify if an alternative execution server is available for running Selenium automation jobs.
+
+Assess migration process from Bitbucket to the new repository.
+
+Identify required configurations (repository setup, job integration, triggers, credentials, etc.).
+
+Document gaps, risks, and dependencies.
+
+Provide recommendation and next steps for implementation.
