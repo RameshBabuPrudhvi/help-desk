@@ -1,19 +1,29 @@
-Title:
-Analysis Task – Feasibility of Migrating Bitbucket Repo and Setting up Automation Job for Selenium Execution
+Subject: Escalation: Support Needed on Deliverable Tracking – Praveen & ManoPrasad
 
-Description:
-This task is to analyze the feasibility of migrating the existing Bitbucket repository and setting up an automation job for executing Selenium scripts using the Lightspeed server (or alternative execution server). The analysis should capture all required details, dependencies, and configuration needs.
+Hi Abhishek / Manoj,
 
-Scope / Action Items:
+I’d like to bring to your attention ongoing concerns with Praveen and ManoPrasad that are directly impacting our team’s velocity and delivery commitments.
 
-Check availability and access details of the Lightspeed server.
+Key Concerns:
 
-Verify if an alternative execution server is available for running Selenium automation jobs.
+Lack of visibility: Both are not consistently updating JIRA or participating in team communications, making it difficult to track progress.
 
-Assess migration process from Bitbucket to the new repository.
+Slippage in deliverables:
 
-Identify required configurations (repository setup, job integration, triggers, credentials, etc.).
+Praveen has recurring delays in completing automation tasks, and his test case coverage is not aligned with sprint timelines.
 
-Document gaps, risks, and dependencies.
+ManoPrasad has not closed his regression suite work across the last two sprints, with PRs pending review and limited commit activity observed.
 
-Provide recommendation and next steps for implementation.
+Accountability: In multiple instances, planned tasks were not delivered as committed, and effort is being spent on items outside the scrum board, further affecting predictability.
+
+Impact: These issues are creating delays in automation coverage, incomplete regression validation, and additional overhead in tracking tasks at my level. This is impacting our sprint outcomes and overall delivery confidence.
+
+Next Steps / Request:
+
+I need your support to enforce stricter tracking of their deliverables.
+
+Starting today, I will ask the team to share a daily status email for better visibility.
+
+Requesting your guidance on additional measures we can put in place to ensure accountability and timely delivery from both.
+
+Thanks for your support.
