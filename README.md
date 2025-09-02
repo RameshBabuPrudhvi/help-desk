@@ -1,29 +1,37 @@
-Subject: Escalation: Support Needed on Deliverable Tracking – Praveen & ManoPrasad
+Subject: Daily Status Update – [Date]
 
-Hi Abhishek / Manoj,
+Hi Team,
 
-I’d like to bring to your attention ongoing concerns with Praveen and ManoPrasad that are directly impacting our team’s velocity and delivery commitments.
+As discussed, please share your daily status update in the below format by [set a time, e.g., 6:00 PM IST] every day. This will help us improve visibility and ensure smoother tracking of deliverables.
 
-Key Concerns:
+Template:
 
-Lack of visibility: Both are not consistently updating JIRA or participating in team communications, making it difficult to track progress.
+Name: [Your Name]
 
-Slippage in deliverables:
+Tasks Planned Today:
 
-Praveen has recurring delays in completing automation tasks, and his test case coverage is not aligned with sprint timelines.
+[List tasks picked up for the day]
 
-ManoPrasad has not closed his regression suite work across the last two sprints, with PRs pending review and limited commit activity observed.
+Tasks Completed Today:
 
-Accountability: In multiple instances, planned tasks were not delivered as committed, and effort is being spent on items outside the scrum board, further affecting predictability.
+[List deliverables completed, PRs raised/merged, test cases written, etc.]
 
-Impact: These issues are creating delays in automation coverage, incomplete regression validation, and additional overhead in tracking tasks at my level. This is impacting our sprint outcomes and overall delivery confidence.
+Pending Items / Blockers:
 
-Next Steps / Request:
+[List anything pending with ETA or mention blockers where help is needed]
 
-I need your support to enforce stricter tracking of their deliverables.
+Plan for Tomorrow:
 
-Starting today, I will ask the team to share a daily status email for better visibility.
+[List tasks planned for the next working day]
 
-Requesting your guidance on additional measures we can put in place to ensure accountability and timely delivery from both.
+Example:
 
-Thanks for your support.
+Name: Praveen
+
+Tasks Planned Today: Complete PPC automation scenarios, write 3 test cases.
+
+Tasks Completed Today: Completed 2 utilities for PPC, raised PR #123.
+
+Pending Items / Blockers: 13 scenarios pending, need 2 more days.
+
+Plan for Tomorrow: Continue PPC scenarios and regression run.
